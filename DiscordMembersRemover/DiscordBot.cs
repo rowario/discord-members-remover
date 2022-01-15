@@ -58,7 +58,6 @@ public class DiscordBot
             if (token == null || token.Length < 10)
             {
                 Console.WriteLine("You passed wrong token, try it again!");
-                TryConnect();
                 continue;
             }
 
